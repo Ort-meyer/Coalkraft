@@ -20,9 +20,6 @@ public class MainCamera : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debug.Log("get to work ffs");
-        //configData = new MainCameraConfigData();
-
         // Key movement
         InputManager.Instance.M_RegisterInputCallbackDown(KeyCode.A, MoveLeft);
         InputManager.Instance.M_RegisterInputCallbackDown(KeyCode.D, MoveRight);
